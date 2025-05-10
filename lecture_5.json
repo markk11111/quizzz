@@ -1,0 +1,205 @@
+{
+  "lecture_title": "EXPERIMENT .5: Seliwanoff's Test for Aldose and Ketose Sugars",
+  "questions": [
+    {
+      "question_text": "What is the primary aim of Seliwanoff's Test?",
+      "options": [
+        "To detect all types of carbohydrates",
+        "To quantify the concentration of monosaccharides",
+        "For Differentiating Aldose and Ketose Sugars",
+        "To identify the presence of polysaccharides"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Seliwanoff's test distinguishes between aldose and ketose sugars based on their:",
+      "options": [
+        "Molecular weight",
+        "Number of carbon atoms",
+        "Functional groups (aldehyde vs. ketone)",
+        "Solubility in water"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Which type of sugar undergoes dehydration more rapidly when heated with concentrated hydrochloric acid (HCl) in Seliwanoff's test?",
+      "options": [
+        "Aldoses",
+        "Ketoses",
+        "Polysaccharides",
+        "Disaccharides with only aldose units"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "The formation of what intermediate from ketoses upon dehydration is key to Seliwanoff's test?",
+      "options": [
+        "Furfural",
+        "5-hydroxymethylfurfural (HMF)",
+        "Resorcinol complex directly",
+        "Glucose-6-phosphate"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What reagent, containing resorcinol, does 5-hydroxymethylfurfural (HMF) react with to form a cherry-red complex?",
+      "options": [
+        "Molisch's reagent",
+        "Benedict's reagent",
+        "Seliwanoff's reagent",
+        "Fehling's solution"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What color change is typically observed for ketose sugars in Seliwanoff's test, indicating a positive result?",
+      "options": [
+        "A faint pink to light yellow solution",
+        "A blue precipitate",
+        "A rapid appearance of a deep red or cherry-red color",
+        "A green fluorescence"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "How do aldose sugars typically react in Seliwanoff's test compared to ketoses?",
+      "options": [
+        "They give a more rapid and intense red color",
+        "They do not react at all",
+        "They dehydrate at a slower rate, producing a delayed and weaker color (faint pink/light yellow)",
+        "They form a blue complex instead of red"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "The reaction diagram shows D-Fructose (a ketose) forming what intermediate before reacting with resorcinol?",
+      "options": [
+        "Furfural",
+        "Glucose",
+        "Hydroxymethyl furfural (HMF)",
+        "Furan"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Why is the concentration of HCl important, especially considering aldoses like glucose?",
+      "options": [
+        "Higher HCl concentration prevents any reaction with aldoses",
+        "Lower HCl concentration speeds up ketose reaction only",
+        "If HCl concentration increases significantly, furfural derivatives can also form from aldoses",
+        "HCl concentration only affects the stability of resorcinol"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "How does sucrose (a disaccharide) give a positive Seliwanoff's test for ketoses?",
+      "options": [
+        "It reacts directly as a disaccharide",
+        "It undergoes hydrolysis to glucose (aldose) and fructose (ketose), and the fructose then reacts",
+        "It isomerizes into a ketose structure before reacting",
+        "Sucrose does not give a positive Seliwanoff's test"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What is the chemical composition of sucrose after hydrolysis?",
+      "options": [
+        "Two glucose units",
+        "Two fructose units",
+        "Glucose and fructose",
+        "Galactose and glucose"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What is the role of resorcinol in Seliwanoff's test?",
+      "options": [
+        "It acts as the dehydrating agent",
+        "It is the solvent for the sugars",
+        "It is the complexing agent that reacts with HMF to provide the color reaction",
+        "It catalyzes the hydrolysis of disaccharides"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What volume of sugar solution (sample) is typically taken for Seliwanoff's test according to the procedure?",
+      "options": [
+        "0.5 mL",
+        "1 mL",
+        "2 mL",
+        "3 mL"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What are the components of Seliwanoff's reagent as described in the procedure?",
+      "options": [
+        "0.05 g resorcinol per 100ml 10% H2SO4",
+        "1 g resorcinol per 100ml 5% HCl",
+        "0.05 g resorcinol per 100ml 10% HCl",
+        "5 g resorcinol per 100ml water"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What is the heating condition specified in the procedure for Seliwanoff's test?",
+      "options": [
+        "Heating directly over a flame for 5 minutes",
+        "Heating in a boiling water bath for 10 minutes",
+        "Heating in a warm water bath (60°C) for 3 minutes",
+        "No heating is required"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Within what timeframe should a red color typically appear for ketoses after heating in Seliwanoff's test?",
+      "options": [
+        "Immediately upon mixing",
+        "In less than 3 minutes",
+        "After 10 minutes of continuous boiling",
+        "Only after cooling for 5 minutes"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What might happen if glucose (an aldose) is subjected to prolonged heating in Seliwanoff's test?",
+      "options": [
+        "It will still show no color change",
+        "It will give a blue color",
+        "It may also give an appreciable color (e.g., faint pink/yellowish)",
+        "It will precipitate out of the solution"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Discussion: What are the main reaction steps involved in Seliwanoff's Test for a ketose?",
+      "options": [
+        "Oxidation of ketose to HMF, then complexation with resorcinol",
+        "Hydrolysis of ketose, then reaction with HCl",
+        "Dehydration of ketose to HMF, then reaction of HMF with resorcinol to form a colored complex",
+        "Direct condensation of ketose with resorcinol, then dehydration"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Discussion: What is the primary aim of using a strong acid (like concentrated HCl) in Seliwanoff's Test?",
+      "options": [
+        "To dissolve the resorcinol",
+        "To act as a color indicator itself",
+        "To hydrolyze polysaccharides into monosaccharides and to catalyze the dehydration of ketoses (and more slowly, aldoses) to HMF",
+        "To neutralize any bases present in the sugar sample"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Discussion: Do aldoses give a truly positive result (rapid, deep cherry-red color) in Seliwanoff's test under normal, controlled conditions?",
+      "options": [
+        "Yes, they react identically to ketoses",
+        "No, they typically give a slower, much fainter color, or no significant color in the short timeframe specific for ketoses",
+        "Yes, but only if the concentration of aldose is very high",
+        "No, aldoses produce a blue color instead"
+      ],
+      "correct_option_index": 1
+    }
+  ]
+}

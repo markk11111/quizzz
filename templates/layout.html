@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>{% block title %}لعبة اختبارات المحاضرات{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> --> 
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            background-color: #f8f9fa; 
+            color: #212529; 
+            padding-top: 70px; 
+            font-size: 1rem; 
+            line-height: 1.6;
+        }
+        .container-main { 
+            background-color: #ffffff; 
+            padding: 20px; 
+            border-radius: 0.5rem; 
+            box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075); 
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .btn-lg {
+            padding: 0.75rem 1.5rem;
+            font-size: 1.15rem;
+            border-radius: 0.3rem;
+        }
+        .btn-block {
+            display: block;
+            width: 100%;
+        }
+        
+        .quiz-option input[type="radio"] {
+            opacity: 0; 
+            position: fixed;
+            width: 0;
+            height: 0; 
+        }
+        .quiz-option label {
+            display: block; 
+            background-color: #f8f9fa;
+            padding: 12px 18px; 
+            font-family: 'Tahoma', sans-serif;
+            font-size: 1.05rem; 
+            border: 1px solid #ddd; 
+            border-radius: 8px; 
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            width: 100%; 
+            text-align: right; 
+            margin-bottom: 10px; 
+            position: relative; 
+        }
+        .quiz-option input[type="radio"]:checked + label {
+            background-color: #007bff; 
+            border-color: #0056b3;
+            color: white;
+            font-weight: 500; 
+            box-shadow: 0 2px 4px rgba(0, 123, 255, 0.4);
+        }
+        .quiz-option input[type="radio"]:focus + label { 
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+            border-color: #80bdff;
+        }
+        .quiz-option label:hover {
+            background-color: #e2e6ea; 
+            border-color: #adb5bd;
+        }
+
+        h1 { font-size: 2rem; color: #007bff; margin-bottom: 0.75rem; }
+        h2 { font-size: 1.6rem; color: #007bff; margin-bottom: 0.5rem; }
+        h3 { font-size: 1.3rem; color: #007bff; }
+        .lead { font-size: 1.1rem; color: #6c757d; }
+
+        .navbar-brand { font-weight: 500; font-size: 1.4rem; display: flex; align-items: center;}
+        .navbar-brand img { margin-left: 8px; }
+
+        .footer { text-align: center; margin-top: 30px; padding: 20px; background-color: #e9ecef; border-top: 1px solid #ced4da; color: #6c757d;}
+
+        .alert img.flash-icon {
+            width: 24px;
+            height: 24px;
+            margin-left: 8px; 
+        }
+
+        html[dir="rtl"] .form-check { 
+            padding-right: 0; 
+        }
+        html[dir="rtl"] .navbar-nav { 
+            margin-right: auto !important;
+            margin-left: 0 !important;
+        }
+         html[dir="rtl"] .navbar-collapse .navbar-nav {
+            padding-right: 0; 
+        }
+        html[dir="rtl"] .ml-auto { margin-left: auto !important; margin-right: 0 !important; }
+        html[dir="rtl"] .mr-auto { margin-right: auto !important; margin-left: 0 !important; }
+        html[dir="rtl"] .mr-2 { margin-right: 0.5rem !important; margin-left: 0 !important; } 
+        html[dir="rtl"] .ml-2 { margin-left: 0.5rem !important; margin-right: 0 !important; }
+
+        html[dir="rtl"] .close { float: left; margin-left: -1.5rem; margin-right: auto; }
+        .table th, .table td { text-align: right; }
+
+        @media (max-width: 767.98px) { 
+            body { padding-top: 56px; }
+            .container-main { padding: 15px; margin-top: 15px; }
+            h1 { font-size: 1.7rem; }
+            h2 { font-size: 1.4rem; }
+            .btn-lg { font-size: 1.05rem; }
+            .navbar-brand { font-size: 1.2rem; }
+            .nav-link { font-size: 1rem; }
+            .form-control-lg { font-size: 1.1rem; padding: .7rem 1rem; }
+            .quiz-option label { font-size: 1rem; padding: 10px 15px; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="الشعار" width="30" height="30" class="d-inline-block align-top">
+                اختبارات المحاضرات
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto"> 
+                    <li class="nav-item {% if request.endpoint == 'index' %}active{% endif %}">
+                        <a class="nav-link" href="{{ url_for('index') }}">الرئيسية</a>
+                    </li>
+                    <li class="nav-item {% if request.endpoint == 'leaderboard_lecture_select' or request.endpoint == 'show_lecture_leaderboard' %}active{% endif %}">
+                        <a class="nav-link" href="{{ url_for('leaderboard_lecture_select') }}">لوحة المتصدرين</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container container-main">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    {% set icon_src = '' %}
+                    {% if category == 'success' %}
+                        {% set icon_src = url_for('static', filename='images/correct.png') %} 
+                    {% elif category == 'danger' %}
+                        {% set icon_src = url_for('static', filename='images/wrong.png') %}
+                    {% elif category == 'warning' %}
+                        {# If you decide to add a warning icon, put its path here #}
+                        {# Example: {% set icon_src = url_for('static', filename='images/warning_icon.png') %} #}
+                    {% endif %}
+
+                    <div class="alert alert-{{ category }} alert-dismissible fade show d-flex align-items-center" role="alert" id="flashMessage-{{ loop.index }}">
+                        {% if icon_src %}
+                            <img src="{{ icon_src }}" alt="{{ category }}" class="flash-icon">
+                        {% endif %}
+                        <div class="ml-2">{{ message }}</div> 
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer class="footer">
+        <p>جميع الحقوق محفوظة لمحمد قحطان © {{ current_year }}</p> 
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const alerts = document.querySelectorAll('.alert[id^="flashMessage-"]');
+            alerts.forEach(function(alert) {
+                setTimeout(function() {
+                    if (typeof($) !== 'undefined' && typeof($.fn.alert) !== 'undefined') {
+                        $(alert).alert('close');
+                    } else {
+                        alert.style.display = 'none';
+                    }
+                }, 4000); 
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,235 @@
+{
+  "lecture_title": "EXPERIMENT NO. 1: Preparation of standard solutions from a Solid",
+  "questions": [
+    {
+      "question_text": "What is the aim of EXPERIMENT NO. 1?",
+      "options": [
+        "Preparation of standard solutions from a Liquid",
+        "Titration of an unknown acid",
+        "Preparation of standard solutions from a Solid",
+        "To determine the purity of a solid substance"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "How is a solution defined in the theory section?",
+      "options": [
+        "A mixture of two immiscible liquids",
+        "A heterogeneous mixture of a solute in a solvent",
+        "A homogeneous mixture created by dissolving one or more solutes in a solvent",
+        "A pure substance in its liquid state"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What are solutions with accurately known concentrations referred to as?",
+      "options": [
+        "Saturated solutions",
+        "Dilute solutions",
+        "Standard (stock) solutions",
+        "Concentrated mixtures"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Which of the following is NOT a characteristic of a primary standard substance?",
+      "options": [
+        "High purity",
+        "Highly hygroscopic (absorbs moisture easily)",
+        "Stable under normal conditions",
+        "High molar mass"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Why is a high molar mass desirable for a primary standard substance?",
+      "options": [
+        "It makes the substance more reactive",
+        "It reduces weighing errors",
+        "It ensures the substance is colored",
+        "It makes the substance dissolve faster"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Which of these is listed as an example of a primary standard substance?",
+      "options": [
+        "Hydrochloric acid (HCl)",
+        "Sodium hydroxide (NaOH)",
+        "Sodium carbonate (Na2CO3)",
+        "Sulfuric acid (H2SO4)"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "How is a secondary standard solution typically standardized?",
+      "options": [
+        "By direct, accurate weighing of the substance",
+        "By titration against a primary standard solution",
+        "By measuring its boiling point",
+        "By checking its color intensity"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Which characteristic is typical of a secondary standard solution compared to a primary standard?",
+      "options": [
+        "Higher purity",
+        "More stable over time",
+        "Less pure and less stable",
+        "Does not require standardization"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Which of the following is given as an example of a secondary standard solution?",
+      "options": [
+        "Potassium hydrogen phthalate (KHC8H4O4)",
+        "Silver nitrate (AgNO3)",
+        "Sodium hydroxide (NaOH)",
+        "Sodium carbonate (Na2CO3)"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What is the first step in preparing a standard solution from a solid, according to the described method?",
+      "options": [
+        "Transferring the solution to a volumetric flask",
+        "Adding solvent to a beaker until the solid dissolves",
+        "Weighing out the solid first in a small beaker",
+        "Rinsing the beaker and stirring rod"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Why must the beaker, stirring rod, and funnel be rinsed carefully with solvent, and the washings added to the volumetric flask?",
+      "options": [
+        "To cool down the glassware",
+        "To ensure all remaining traces of the solution have been transferred",
+        "To pre-wet the volumetric flask",
+        "To remove any dust particles"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What is a potential disadvantage mentioned for preparing standard solutions from solids if glassware is not washed thoroughly?",
+      "options": [
+        "The solution might become too concentrated",
+        "Some of the solution may adhere to the glassware leading to inaccurate concentration",
+        "The solvent might evaporate too quickly",
+        "The solid might not dissolve completely"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "In the formula Wt = (M x M.wt × V(mL)) / 1000, what does 'Wt' represent?",
+      "options": [
+        "Volume in Liters",
+        "Molarity",
+        "Weight in grams",
+        "Molecular weight"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "If you are using the formula Wt = (N × Eq.wt × V(mL)) / 1000, what does 'Eq.wt' stand for?",
+      "options": [
+        "Equivalent volume",
+        "Normality factor",
+        "Equivalent weight in gm/eq",
+        "Equation constant"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Which piece of glassware is NOT explicitly listed in the 'Chemical and glassware' section for preparing a standard solution of NaOH from solid?",
+      "options": [
+        "Balance",
+        "Beaker",
+        "Volumetric flask",
+        "Measuring cylinder (Graduated cylinder)"
+      ],
+      "correct_option_index": 3
+    },
+    {
+      "question_text": "According to the procedure for NaOH, what volume is needed for the 0.1M solution preparation example?",
+      "options": [
+        "50mL",
+        "100mL",
+        "250mL",
+        "1000mL"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What action is performed after the volumetric flask is diluted to the calibration mark?",
+      "options": [
+        "The solution is immediately used",
+        "The flask is heated gently",
+        "The flask is capped and inverted until thoroughly mixed",
+        "The solution is filtered"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "From the Discussion: What is one of the key characteristics of a 'primary standard solution'?",
+      "options": [
+        "It is usually a liquid at room temperature",
+        "It is highly pure and stable",
+        "It reacts readily with atmospheric CO2",
+        "It has a very low molar mass"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "How many grams of solid Citric acid (M.Wt=192 g/mol) are needed to prepare 500 mL of a 0.1 M solution?",
+      "options": [
+        "1.92 g",
+        "9.6 g",
+        "19.2 g",
+        "0.96 g"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "How many grams of Perchloric acid (HClO₄, M.wt=100.46 g/mol) are contained in 1L of a 0.5 M solution?",
+      "options": [
+        "10.046 g",
+        "25.115 g",
+        "50.23 g",
+        "100.46 g"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "How many grams of Barium hydroxide (Ba(OH)₂, M.wt=171.34 g/mol) are needed to prepare 1L of a 0.5 N solution?",
+      "options": [
+        "17.134 g",
+        "85.67 g",
+        "42.84 g",
+        "171.34 g"
+      ],
+      "correct_option_index": 2
+    },
+    {
+        "question_text": "A primary standard substance should ideally be non-hygroscopic or only slightly hygroscopic. What does 'non-hygroscopic' mean?",
+        "options": [
+          "It dissolves easily in water",
+          "It does not absorb moisture from the air easily",
+          "It is highly reactive with air",
+          "It has a low boiling point"
+        ],
+        "correct_option_index": 1
+    },
+    {
+        "question_text": "What is the final step in preparing a standard solution from a solid in a volumetric flask before capping and mixing?",
+        "options": [
+          "Stirring the solution vigorously for 5 minutes",
+          "Adding additional solvent until the liquid level reaches the calibration mark",
+          "Heating the solution to ensure complete dissolution",
+          "Allowing the solution to stand for an hour"
+        ],
+        "correct_option_index": 1
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "lecture_title": "EXPERIMENT NO. 3: Determine HCl concentration with standard NaOH",
+  "questions": [
+    {
+      "question_text": "What is the main aim of EXPERIMENT NO. 3?",
+      "options": [
+        "To prepare a standard solution of NaOH",
+        "To determine the concentration of HCl solution using a standard NaOH solution",
+        "To study the properties of different indicators",
+        "To standardize HCl solution using a primary standard solid"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Titration is a technique used in Volumetric Analysis to determine the concentration of an unknown solution by:",
+      "options": [
+        "Measuring its density and temperature",
+        "Controlled slow addition of a titrant until neutralization",
+        "Observing its color change upon heating",
+        "Dissolving a known mass of solute in it"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What is the 'equivalence point' in a titration?",
+      "options": [
+        "When the indicator changes color",
+        "When the concentration of [H+] equals the concentration of [OH-]",
+        "When half of the titrant has been added",
+        "The point at which the solution becomes turbid"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What is the 'endpoint' in a titration?",
+      "options": [
+        "The point where [H+] = [OH-], without color change",
+        "The point where the reaction begins",
+        "The point indicated by a change in color of the solution, signifying equivalence has been achieved",
+        "The initial reading on the burette"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Phenolphthalein (Ph-Ph) indicator is colorless in acidic medium and changes to what color in a basic medium?",
+      "options": [
+        "Yellow",
+        "Blue",
+        "Pink",
+        "Orange"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What color change does Methyl Orange (M-O) indicator show when moving from an acidic to an alkaline/base medium?",
+      "options": [
+        "Colorless to Pink",
+        "Pink to Colorless",
+        "Red to Orange/Yellow",
+        "Yellow to Blue"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What is the chemical equation for the reaction between sodium hydroxide (NaOH) and hydrochloric acid (HCl)?",
+      "options": [
+        "NaOH + HCl → NaH + ClOH",
+        "2NaOH + HCl → Na2O + H2Cl",
+        "NaOH + HCl → NaCl + H2O",
+        "NaOH + 2HCl → NaCl2 + H2O + OH"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "In this experiment (HCl unknown, NaOH standard), what happens to the solution's color at the endpoint when using Phenolphthalein?",
+      "options": [
+        "Pink to colorless",
+        "Colorless to pink/red",
+        "Red to yellow",
+        "Yellow to blue"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Which piece of glassware is primarily used to deliver the titrant (e.g., standard NaOH solution) with precision during titration?",
+      "options": [
+        "Beaker",
+        "Pipette",
+        "Conical flask",
+        "Burette"
+      ],
+      "correct_option_index": 3
+    },
+    {
+      "question_text": "What is the first step in the procedure for titration, regarding the burette?",
+      "options": [
+        "Fill it with the unknown solution",
+        "Wash it with water and then with distilled water",
+        "Add indicator to it",
+        "Record the initial volume after filling it halfway"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "How much hydrochloric acid solution is added to the conical flask for titration according to the procedure?",
+      "options": [
+        "0.1 mL",
+        "1 mL",
+        "10 mL",
+        "The volume measured by the burette"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Why is a white sheet placed under the conical flask during titration?",
+      "options": [
+        "To absorb any spills",
+        "To keep the flask stable",
+        "To better observe the discoloration (color change) of the solution",
+        "To reflect light and speed up the reaction"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "How should the sodium hydroxide solution be added from the burette during titration?",
+      "options": [
+        "Quickly in large volumes",
+        "Continuously and slowly, with shaking of the conical flask",
+        "Drop by drop from the very beginning",
+        "Only after heating the conical flask"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What action should be taken immediately when the solution in the conical flask turns pink (using phenolphthalein) and stays pink?",
+      "options": [
+        "Add more indicator",
+        "Continue adding NaOH for another 1 mL",
+        "Stop the titration immediately",
+        "Heat the solution to see if the color disappears"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Why is the titration typically repeated three times?",
+      "options": [
+        "To use up all the reagents",
+        "To ensure accuracy and obtain an average volume",
+        "Because the first two are usually practice runs",
+        "To allow the indicator to fully mix"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Which formula is used to calculate the unknown concentration in this acid-base titration?",
+      "options": [
+        "(M + V)Acid = (M + V)Base",
+        "(M / V)Acid = (M / V)Base",
+        "(M x V)Acid = (M x V)Base",
+        "Molarity = Moles / Volume (L)"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Discussion Q5: If 0.1M HCl is used to titrate 2mL of unknown NaOH, and average HCl volumes used are 9.8mL, 18mL, and 27mL respectively for three trials, what is the approximate concentration of NaOH? (Assume these are individual trials for 2mL NaOH each time, and average the V(HCl))",
+      "options": [
+        "0.45 M",
+        "0.91 M",
+        "1.82 M",
+        "0.23 M"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Discussion Q6: If 5 mL of HCl solution requires an average of 8.0 mL of 0.1 M NaOH for titration, what is the concentration of the HCl solution?",
+      "options": [
+        "0.08 M",
+        "0.1 M",
+        "0.16 M",
+        "0.20 M"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Discussion Q7: If 2 mL of HCl solution required an average of 7.3 mL of 1.2 M NaOH for titration, what is the concentration of the HCl solution?",
+      "options": [
+        "2.19 M",
+        "8.76 M",
+        "3.65 M",
+        "4.38 M"
+      ],
+      "correct_option_index": 3
+    },
+    {
+        "question_text": "Why should the conical flask be shaken continuously during titration?",
+        "options": [
+          "To prevent the indicator from settling",
+          "To ensure thorough mixing of reactants for a complete and rapid reaction",
+          "To speed up the color change at the endpoint",
+          "To keep the solution warm"
+        ],
+        "correct_option_index": 1
+    }
+  ]
+}

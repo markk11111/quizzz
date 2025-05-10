@@ -1,0 +1,29 @@
+# Virtual Environment
+venv/
+/venv/
+*.py[cod]
+*.so
+*.env
+.env
+
+# SQLite Database (optional - uncomment if you don't want to commit the DB data)
+# quiz_bot.db
+# *.sqlite
+# *.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.DS_Store
+
+# Flask session files (if any stored on disk, usually not)
+instance/flask_session/
+
+# Output files from builds, etc.
+dist/
+build/
+*.egg-info/

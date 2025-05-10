@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}سؤال الاختبار - {{ lecture_title }}{% endblock %}
+
+{% block content %}
+    <h2>{{ lecture_title }} - سؤال {{ current_q_num }} / {{ total_questions }}</h2>
+    <hr>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">السؤال:</h5>
+            <p class="card-text" style="font-size: 1.2em; line-height: 1.6;">{{ question_text }}</p>
+            
+            <form method="POST" action="{{ url_for('submit_answer', lecture_id=lecture_id, q_idx=q_idx) }}">
+                <h6>الخيارات:</h6>
+                {% for option in options %}
+                <div class="quiz-option"> {# Removed form-check class, styling is custom #}
+                    <input class="form-check-input" type="radio" name="option" id="option{{ loop.index0 }}" value="{{ option }}" required>
+                    <label class="form-check-label" for="option{{ loop.index0 }}">
+                        {{ option }}
+                    </label>
+                </div>
+                {% endfor %}
+                <hr>
+                <button type="submit" class="btn btn-success btn-lg btn-block mt-3">إرسال الإجابة</button>
+            </form>
+        </div>
+    </div>
+    <div class="mt-3 text-center">
+        <a href="{{ url_for('index') }}" class="btn btn-secondary btn-sm">العودة لاختيار المحاضرات</a>
+    </div>
+{% endblock %}

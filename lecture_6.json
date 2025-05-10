@@ -1,0 +1,205 @@
+{
+  "lecture_title": "EXPERIMENT .6: Bial's Test for Pentoses and Nucleic Acids",
+  "questions": [
+    {
+      "question_text": "What are the main aims of Bial's Test as described in EXPERIMENT .6?",
+      "options": [
+        "To quantify all types of sugars and identify proteins",
+        "To differentiate pentoses from hexoses and detect nucleic acids in a sample",
+        "To specifically detect glucose and fructose only",
+        "To test for the presence of polysaccharides and lipids"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Bial's test is particularly useful for distinguishing pentoses from which other type of sugar?",
+      "options": [
+        "Disaccharides",
+        "Polysaccharides",
+        "Hexoses",
+        "Oligosaccharides"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What are the key components of Bial's reagent?",
+      "options": [
+        "Resorcinol, concentrated H2SO4, and FeCl3",
+        "Orcinol, concentrated HCl, and a small amount of FeCl3 catalyst",
+        "α-Naphthol, ethanol, and concentrated HCl",
+        "Orcinol, water, and CuSO4"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "In the presence of concentrated HCl, what product do pentoses form?",
+      "options": [
+        "5-hydroxymethylfurfural (5-HMF)",
+        "Furfural",
+        "A blue-green complex directly",
+        "Glucose"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "In the presence of concentrated HCl, what product do hexoses form?",
+      "options": [
+        "Furfural",
+        "A blue-green complex directly",
+        "5-hydroxymethylfurfural (5-HMF)",
+        "Ribose"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What color is produced when furfural (from pentoses) reacts with orcinol and FeCl3 in Bial's test?",
+      "options": [
+        "Cherry-red",
+        "Yellow-brown / muddy",
+        "Blue-green product",
+        "Bright purple"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What color is typically observed when 5-hydroxymethylfurfural (from hexoses) reacts with Bial's reagent?",
+      "options": [
+        "Blue-green",
+        "Bright red",
+        "Colorless",
+        "Brownish colored product (Yellow-brown / muddy)"
+      ],
+      "correct_option_index": 3
+    },
+    {
+      "question_text": "According to the summary table, what product is formed from Pentose in Bial's test before color development?",
+      "options": [
+        "5-HMF",
+        "Orcinol complex",
+        "Furfural",
+        "Ribulose"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Why does RNA generally give a stronger positive test in Bial's test than DNA?",
+      "options": [
+        "RNA has more phosphate groups",
+        "DNA is a larger molecule",
+        "Due to the presence of ribose (a pentose) in RNA, while DNA contains deoxyribose (a modified pentose that reacts more weakly)",
+        "RNA contains uracil which enhances the color"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What are the preparation instructions for Bial's reagent mentioned in the text?",
+      "options": [
+        "1.5 gm orcinol in 500 ml water + 1 ml of 10% FeCl3",
+        "0.5 gm orcinol in 100 ml conc. HCl + 5 ml of 5% FeCl3",
+        "1.5 gm orcinol in 500 ml concentrated hydrochloric acid, then 1 ml of 10 % ferric chloride",
+        "5 gm orcinol in 100 ml ethanol + 0.1 ml of 1% FeCl3"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "The diagram shows Ribose (a pentose) reacting with Conc HCl to form what intermediate?",
+      "options": [
+        "Hydroxymethyl furfural",
+        "Orcinol",
+        "Furfural",
+        "A blue-green complex"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "The diagram shows D-Glucose (a hexose) reacting with Conc HCl to form what intermediate?",
+      "options": [
+        "Furfural",
+        "Orcinol",
+        "Hydroxymethyl furfural",
+        "A brownish complex"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Which of the following sugars would give a positive blue-green result with Bial's Test?",
+      "options": [
+        "Glucose",
+        "Fructose",
+        "Ribose (found in RNA)",
+        "Sucrose"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Which of the following would likely give a negative (or faint/brownish) result with Bial's Test, indicating it's not a primary pentose source?",
+      "options": [
+        "Arabinose",
+        "RNA",
+        "Glucose",
+        "Xylose"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "In the procedure, how much sugar solution is added to 2 mL of Bial's reagent?",
+      "options": [
+        "0.5 mL",
+        "1 mL",
+        "2 mL",
+        "Equal volume (2 mL)"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What is the heating condition specified in the procedure for Bial's Test?",
+      "options": [
+        "Boil in a water bath for 1-2 minutes",
+        "Heat gently over a direct flame",
+        "Boil in a water bath for 5-6 minutes",
+        "No heating required, just mix"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What is observed for a positive result (presence of pentose) in Bial's Test after heating and cooling?",
+      "options": [
+        "A cherry-red color",
+        "A blue-green color",
+        "A yellow-brown precipitate",
+        "The solution remains colorless"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What is observed for a negative result (presence of hexose, or absence of pentose) in Bial's Test?",
+      "options": [
+        "A bright blue color",
+        "A clear, colorless solution",
+        "A brownish color (or yellow-brown/muddy)",
+        "A green precipitate"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Discussion: What are the main chemical steps in Bial's test for pentoses?",
+      "options": [
+        "Hydrolysis of pentose, then reaction with orcinol",
+        "Dehydration of pentose to furfural by HCl, then condensation of furfural with orcinol and FeCl3 to form a blue-green complex",
+        "Oxidation of pentose by FeCl3, then reaction with orcinol",
+        "Direct reaction of pentose with orcinol in acidic medium"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Discussion: What role does FeCl3 (ferric chloride) play in Bial's reagent?",
+      "options": [
+        "It is the main solvent",
+        "It acts as a dehydrating agent",
+        "It acts as a catalyst and is involved in the color formation complex",
+        "It is the primary coloring agent itself"
+      ],
+      "correct_option_index": 2
+    }
+  ]
+}

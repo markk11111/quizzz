@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}اختيار محاضرة{% endblock %}
+
+{% block content %}
+    <div class="text-center">
+        <h1>أهلاً بك في اختبارات المحاضرات!</h1>
+        <p class="lead">يرجى إدخال اسمك (اختياري) واختيار محاضرة لبدء الاختبار.</p>
+    </div>
+
+    <form id="startQuizForm" class="mb-4">
+        <div class="form-group">
+            <label for="username">اسمك (للوحة الصدارة):</label>
+            <input type="text" class="form-control form-control-lg" id="username" name="username" placeholder="مثال: محمد">
+        </div>
+    </form>
+
+    <h2>اختر محاضرة:</h2>
+    <div class="row">
+        {% for lec_id, lec_info in lectures.items() %}
+        <div class="col-12 col-sm-6 mb-3"> 
+            <button onclick="submitQuiz('{{ lec_id }}')" class="btn btn-lg btn-info btn-block">
+                {{ lec_info.title }}
+            </button>
+        </div>
+        {% endfor %}
+    </div>
+
+<script>
+    function submitQuiz(lectureId) {
+        var username = document.getElementById('username').value;
+        if (!username.trim()) { // Check if username is empty or just whitespace
+            username = 'زائر'; 
+        }
+        // Construct URL with query parameter for username
+        window.location.href = "{{ url_for('start_quiz', lecture_id='REPLACE_ME') }}".replace('REPLACE_ME', lectureId) + "?username=" + encodeURIComponent(username);
+    }
+</script>
+{% endblock %}

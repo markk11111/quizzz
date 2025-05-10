@@ -1,0 +1,235 @@
+{
+  "lecture_title": "EXPERIMENT NO. 2: Preparing a standard solution from a Liquid",
+  "questions": [
+    {
+      "question_text": "What is the primary aim of EXPERIMENT NO. 2 as stated in the document?",
+      "options": [
+        "To determine the unknown concentration of several acids",
+        "Preparing a standard solution from a Liquid",
+        "To test the safety of diluting concentrated acids",
+        "To list common laboratory glassware"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "According to the theory, how are solutions required in the laboratory typically prepared from concentrated acids?",
+      "options": [
+        "By heating the concentrated solutions to evaporate excess solvent",
+        "By mixing them with inert solids to reduce concentration",
+        "By diluting the concentrated solutions with water",
+        "By reacting them with specific neutralizing agents"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Which of these acids is NOT listed as commonly used in the laboratory and available as concentrated aqueous solutions in the document?",
+      "options": [
+        "Hydrochloric acid (HCl)",
+        "Sulphuric acid (H2SO4)",
+        "Citric acid (C6H8O7)",
+        "Acetic acid (CH3COOH)"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "In the formula M = (Sp.g x % x 1000) / M.wt, what does 'M.wt' represent?",
+      "options": [
+        "Mass of water added",
+        "Molarity per weight unit",
+        "Specific gravity of the solution",
+        "Molecular weight in gm/mole"
+      ],
+      "correct_option_index": 3
+    },
+    {
+      "question_text": "What does 'Sp.g' stand for in the Molarity formula M = (Sp.g x % x 1000) / M.wt?",
+      "options": [
+        "Solution purity grade",
+        "Standard percentage",
+        "Specific gravity",
+        "Solvent proportion"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "In the formula N = (Sp.g x % x 1000) / Eq.wt, what does 'Eq.wt' denote?",
+      "options": [
+        "Equivalent molarity",
+        "Normality per weight",
+        "Equivalent weight in gm/eq",
+        "Equation weight factor"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What is 'dilution' primarily defined as in the text?",
+      "options": [
+        "The addition of more solute to increase concentration",
+        "The process of separating components of a solution",
+        "The addition of more solvent to produce a solution of reduced concentration",
+        "The chemical reaction between an acid and a solvent"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Which formula is used to express dilution when M represents Molarity and V represents Volume?",
+      "options": [
+        "M = N / V",
+        "M1V1 = M2V2",
+        "Sp.g = M x V",
+        "M1/V1 = M2/V2"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What is the formula for dilution involving Normality (N) and Volume (V)?",
+      "options": [
+        "N1M1 = N2M2",
+        "N1 + V1 = N2 + V2",
+        "N1V1 = N2V2",
+        "N/V = constant"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What happens if you add water to acid, according to the safety instructions?",
+      "options": [
+        "The solution becomes very dilute quickly and safely",
+        "The acid might not dissolve properly",
+        "An extremely concentrated acid solution forms initially, releasing much heat",
+        "The reaction proceeds much slower, which is safer"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What is the ALWAYS recommended safe procedure when mixing acid and water?",
+      "options": [
+        "Add water to acid rapidly",
+        "Add acid to water slowly",
+        "Mix them simultaneously in equal parts",
+        "Add acid to boiling water"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Which piece of glassware is specifically mentioned for delivering an exact amount of stock solution into a clean volumetric flask?",
+      "options": [
+        "Beaker",
+        "Graduated cylinder",
+        "Volumetric pipette",
+        "Funnel"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Which of the following is listed as a chemical/reagent and not glassware in the 'Chemical and glassware' section?",
+      "options": [
+        "Beaker",
+        "Conical flask",
+        "Hydrochloric acid (HCl)",
+        "Pipette"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What is the first step outlined in the 'Procedure' section for preparing a standard solution?",
+      "options": [
+        "Take a certain volume from the stock solution",
+        "Find out the molarity or normality of the stock solution",
+        "Transfer the solution to a volumetric flask using a funnel",
+        "Add additional solvent to the graduated cylinder"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "According to the procedure, how should a strong acid be added to a solvent in a volumetric flask?",
+      "options": [
+        "The solvent should be added to the strong acid",
+        "Poured quickly to ensure proper mixing",
+        "The strong acid should be added to the solvent",
+        "Heated slightly before addition"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What should be done with the funnel and graduated cylinder after transferring the stock solution/initial solvent?",
+      "options": [
+        "They should be immediately stored away",
+        "They must be rinsed carefully and the washings added to the volumetric flask",
+        "They should be dried with a cloth",
+        "They should be filled with water for the next step"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "When is the dilution in the volumetric flask considered complete according to the procedure?",
+      "options": [
+        "After stirring for 10 minutes",
+        "When the solution turns clear",
+        "When the liquid level reaches the calibration mark on the flask",
+        "Once all the solute has visibly dissolved"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "The procedure mentions preparing dilute solutions (0.01M, 0.04M) from what starting material?",
+      "options": [
+        "Solid solute dissolved in water",
+        "A commercially bought dilute solution",
+        "The prepared standard solution",
+        "A concentrated acid directly from the stock bottle"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "The diagram illustrating the dilution process (page 3) shows which instrument being used to pull the 'Stock solution'?",
+      "options": [
+        "A beaker with a spout",
+        "A graduated cylinder",
+        "A volumetric pipette",
+        "A stirring rod"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Why is it crucial to add strong acid to the solvent (e.g., water) and not the other way around, as highlighted in the 'Discussion'?",
+      "options": [
+        "To ensure the acid dissolves faster",
+        "To prevent the solvent from evaporating too quickly",
+        "To avoid a large release of heat that can cause boiling and splashing of concentrated acid",
+        "Because acids are less dense than most solvents"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Calculate the volume of stock solution (sp.g 1.18, 37% w/w HCl, M.wt=36.5 g/mol) needed to prepare 200 mL of 4 M HCl.",
+      "options": [
+        "33.45 mL",
+        "66.89 mL",
+        "119.60 mL",
+        "45.12 mL"
+      ],
+      "correct_option_index": 1
+    },
+    {
+        "question_text": "The solutions required in laboratory are prepared by diluting the Concentrated solutions with what?",
+        "options": [
+          "Another acid",
+          "A base",
+          "Water",
+          "Alcohol"
+        ],
+        "correct_option_index": 2
+    },
+    {
+        "question_text": "In the context of dilution, what does M1 refer to if M2 is the molarity of the diluted solution?",
+        "options": [
+          "Mass of the initial solution",
+          "Molarity of the stock (concentrated) solution",
+          "Molecular weight of the solute",
+          "Moles of solute in the diluted solution"
+        ],
+        "correct_option_index": 1
+    }
+  ]
+}

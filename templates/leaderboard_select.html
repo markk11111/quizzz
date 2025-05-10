@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}لوحة المتصدرين - اختر محاضرة{% endblock %}
+
+{% block content %}
+    <div class="text-center">
+        <h1>لوحة المتصدرين</h1>
+        <p class="lead">اختر محاضرة لعرض لوحة الصدارة الخاصة بها.</p>
+    </div>
+
+    <div class="row">
+        {% for lec_id, lec_info in lectures.items() %}
+        <div class="col-12 col-sm-6 mb-3">
+            <a href="{{ url_for('show_lecture_leaderboard', lecture_id=lec_id) }}" class="btn btn-lg btn-outline-primary btn-block">
+                {{ lec_info.title }}
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+     <div class="mt-3 text-center">
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">العودة للقائمة الرئيسية</a>
+    </div>
+{% endblock %}

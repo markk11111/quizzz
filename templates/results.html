@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}نتيجة الاختبار - {{ lecture_title }}{% endblock %}
+
+{% block content %}
+    <div class="text-center">
+        <h1>🎉 أحسنت يا {{ username }}! 🎉</h1>
+        <h2>نتيجة اختبار محاضرة: {{ lecture_title }}</h2>
+        <h3>نتيجتك هي: <span class="badge badge-primary" style="font-size: 1.5em;">{{ score }} / {{ total_questions }}</span></h3>
+        <hr>
+        <p>
+            <a href="{{ url_for('show_lecture_leaderboard', lecture_id=lecture_id) }}" class="btn btn-info btn-lg m-2">🏆 لوحة صدارة هذه المحاضرة</a>
+            <a href="{{ url_for('start_quiz', lecture_id=lecture_id) }}?username={{ username|urlencode }}" class="btn btn-warning btn-lg m-2">🔁 إعادة الاختبار</a>
+            <a href="{{ url_for('index') }}" class="btn btn-secondary btn-lg m-2">🏠 العودة للقائمة الرئيسية</a>
+        </p>
+    </div>
+{% endblock %}

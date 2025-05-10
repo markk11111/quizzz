@@ -1,0 +1,205 @@
+{
+  "lecture_title": "EXPERIMENT NO. 4: Molisch's Test for Carbohydrates",
+  "questions": [
+    {
+      "question_text": "What is the primary aim of EXPERIMENT NO. 4?",
+      "options": [
+        "To quantify the amount of carbohydrates in a sample",
+        "To detect the presence of carbohydrates by Molisch's Test",
+        "To synthesize furfural from sugars",
+        "To compare different types of monosaccharides"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What is the first step common to all carbohydrate testing mentioned in this experiment?",
+      "options": [
+        "Reaction with α-naphthol",
+        "Formation of a purple ring",
+        "The formation of furfural or its derivatives",
+        "Dehydration using a weak acid"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Furfural is described as an organic compound that is a product of what process involving sugars?",
+      "options": [
+        "Oxidation of sugars",
+        "Reduction of sugars",
+        "Hydration of sugars",
+        "Dehydration of sugars"
+      ],
+      "correct_option_index": 3
+    },
+    {
+      "question_text": "What type of functional group does furfural possess, attached to the 2-position of furan?",
+      "options": [
+        "Carboxyl group",
+        "Hydroxyl group",
+        "Aldehyde group",
+        "Ketone group"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "When monosaccharides are treated with concentrated Sulfuric Acid (H2SO4), they undergo dehydration with the removal of how many molecules of water?",
+      "options": [
+        "One molecule",
+        "Two molecules",
+        "Three molecules",
+        "Four molecules"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What product do hexoses yield upon dehydration with concentrated H2SO4?",
+      "options": [
+        "Furfural only",
+        "Hydroxymethyl furfural",
+        "A mixture of furan and water",
+        "Glucose-6-phosphate"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What product do pentoses yield upon dehydration with concentrated H2SO4?",
+      "options": [
+        "Hydroxymethyl furfural",
+        "Furfural",
+        "Furan-2-carboxylic acid",
+        "Pentanoic acid"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Which types of carbohydrates give a positive reaction for Molisch test?",
+      "options": [
+        "Only monosaccharides",
+        "Only disaccharides",
+        "Only polysaccharides",
+        "All carbohydrates (monosaccharides, disaccharides, oligosaccharides, and polysaccharides)"
+      ],
+      "correct_option_index": 3
+    },
+    {
+      "question_text": "Molisch's test is based on the dehydration of carbohydrates by Sulphuric acid to produce an aldehyde (furfural or derivative), which then condenses with what reagent?",
+      "options": [
+        "Benedict's reagent",
+        "Fehling's solution",
+        "Two molecules of α-naphthol (Molisch's reagent)",
+        "Thymol blue indicator"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What visible sign indicates a positive Molisch test?",
+      "options": [
+        "Formation of a blue precipitate",
+        "A brick-red color change throughout the solution",
+        "Appearance of a purple or violet ring at the interface of two layers",
+        "Evolution of a colorless gas"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What is the role of Sulphuric acid in Molisch's Test?",
+      "options": [
+        "Oxidizing agent only",
+        "Reducing agent only",
+        "Dehydrating agent",
+        "Catalyst for color formation with α-naphthol"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "The structure shown for D-Glucose reacting in Molisch's test forms what intermediate before condensing with α-naphthol?",
+      "options": [
+        "Furfural",
+        "Furan",
+        "Hydroxymethyl furfural",
+        "Gluconic acid"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Why might Thymol be used as a reagent instead of α-Naphthol in some carbohydrate tests?",
+      "options": [
+        "It is less expensive",
+        "It gives a different color reaction",
+        "It is more stable than α-Naphthol and can be applied to insoluble carbohydrates",
+        "It reacts faster with furfural derivatives"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "In the procedure for Molisch's Test, how much of a known carbohydrate solution is typically placed in a test tube?",
+      "options": [
+        "0.5 mL",
+        "1 mL",
+        "2 mL",
+        "5 mL"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "What is Molisch's reagent composed of, according to the procedure?",
+      "options": [
+        "5% α-naphthol in water",
+        "10% α-naphthol dissolved in ethanol",
+        "Concentrated Sulphuric acid",
+        "1% Thymol in water"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "How should concentrated H2SO4 be added in Molisch's Test after adding the reagent?",
+      "options": [
+        "Quickly and mixed vigorously",
+        "Slowly down the side of the test tube to form a layer at the bottom",
+        "Drop by drop while heating",
+        "Mixed with the carbohydrate solution before adding Molisch's reagent"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "What observation indicates a negative Molisch Test?",
+      "options": [
+        "Formation of a faint pink ring",
+        "The solution turns uniformly yellow",
+        "No violet/purple ring is formed at the interface",
+        "A blue precipitate forms"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Discussion: What is the key structural difference between furfural and hydroxymethyl furfural?",
+      "options": [
+        "Furfural has a ketone group, hydroxymethyl furfural has an aldehyde",
+        "Hydroxymethyl furfural has an additional hydroxymethyl (-CH2OH) group compared to furfural",
+        "Furfural is derived from hexoses, hydroxymethyl furfural from pentoses",
+        "They are optical isomers of each other"
+      ],
+      "correct_option_index": 1
+    },
+    {
+      "question_text": "Discussion: Which structural feature is primarily responsible for the difference in products (furfural vs. hydroxymethyl furfural) from pentoses and hexoses upon dehydration?",
+      "options": [
+        "The number of aldehyde groups",
+        "The presence of a furan ring",
+        "The number of carbon atoms (5 in pentoses, 6 in hexoses)",
+        "The overall charge of the sugar molecule"
+      ],
+      "correct_option_index": 2
+    },
+    {
+      "question_text": "Discussion: What are the two main chemical steps involved in Molisch's test leading to a positive result?",
+      "options": [
+        "Oxidation of sugar then reduction with α-naphthol",
+        "Hydrolysis of sugar then reaction with H2SO4",
+        "Dehydration of carbohydrate to furfural/derivative, then condensation with α-naphthol",
+        "Esterification of sugar then color change with acid"
+      ],
+      "correct_option_index": 2
+    }
+  ]
+}
